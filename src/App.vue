@@ -2,6 +2,7 @@
   <div id="app">
     <button class="button" @click="showDialog "  >点我</button>
      <awesome-picker 
+     
       ref="picker"
       :subTitle="picker.subTitle"
       :textTitle="picker.textTitle"
